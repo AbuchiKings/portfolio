@@ -1,0 +1,48 @@
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+.navbar {
+    background-color: #f8f8f8;
+    border-radius: 0px;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 2;
+}
+
+.navbar-brand{
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+
+#navbarNav ul{
+    margin-left: auto;
+    margin-right: 0;
+    
+}
+
+.navbar li>a.link {
+    margin: 5px 10px;
+    padding: 5px 20px;
+}
+
+#login, #home, #contact {
+    color: black !important;
+}
+
+.navbar li>a.link:hover {
+    border-bottom: 2px solid rgb(171, 11, 75);
+}
+#home.active{
+    background-color: rgb(171, 11, 75);
+    color: white !important;
+}
+
+@media(min-width: 992px){
+    #login{
+         margin-left: 30px;
+    }
+}

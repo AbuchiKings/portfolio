@@ -2,8 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <nav-bar></nav-bar>
+  <router-outlet></router-outlet>
+  <ft></ft>
+  `,
 })
 export class AppComponent {
   title = 'portfolio';

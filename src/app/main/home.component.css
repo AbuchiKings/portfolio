@@ -1,0 +1,198 @@
+.summary {
+    padding: 20px 15px;
+    background-position: center;
+    width: 100%;
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/gradient-bg.jpg);
+    margin-top: 0px;
+    border: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div-under-summary {
+    margin-top: 100px;
+}
+
+.div-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.div-intro .flex-item {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.name-container {
+    margin-left: auto;
+    width: 60%;
+    float: right;
+    text-align: justify;
+}
+
+.name {
+    font-size: 30px;
+    color: white;
+}
+
+.name span {
+    font-family: 'Cabin Sketch', cursive;
+    color: rgb(171, 11, 75);
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.details {
+    color: white;
+    clear: both;
+    width: 75%;
+    margin: auto;
+}
+
+.details p {
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 3px;
+}
+
+.section2 {
+    padding: 20px 15px;
+}
+
+.skills-header {
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.flex-container .card {
+    max-width: 400px;
+    min-height: 200px;
+    border: none;
+    border-right: 5px solid #810a37;
+    border-bottom: 5px solid #810a37;
+    margin: 10px;
+    box-shadow: 0px 0px 2px 0px rgb(0, 0, 0, 0.5);
+    flex: 1 300px;
+}
+
+p.card-header {
+    background-color: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+.card .list-container {
+    padding: 0 5px 5px 5px;
+}
+
+.card li {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.section3, .section4 {
+    padding: 20px 15px;
+}
+
+.projects-header {
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+.projects-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.projects div.card {
+    text-align: center;
+    width: 75%;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    margin: 50px auto;
+    min-width: 270px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0, 0.3);
+}
+
+.projects img {
+    width: 80%;
+    height: auto;
+    min-width: 265px;
+    margin: auto;
+}
+
+div.project-link {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+div.project-link a {
+    font-size: 20px;
+}
+
+.card div.project-tags {
+    margin-top: 8px;
+}
+
+span.tags {
+    font-size: 13px;
+    padding: 5px;
+    margin: 4px;
+    background-color: #bebebe;
+}
+
+.section4{
+    display: none;
+}
+
+
+
+@media(max-width: 1200px) {
+    .projects img {
+        width: 90%;
+    }
+    .projects div.card {
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px) {
+    .projects img {
+        width: 90%;
+    }
+    .projects div.card {
+        text-align: center;
+        width: 85%;
+        box-shadow: none;
+        padding-bottom: 15px;
+        margin: 0px auto;
+
+
+    }
+    span.tags {
+        box-sizing: content-box;
+        display: inline-block;
+        margin-top: 4px;
+    }
+}
