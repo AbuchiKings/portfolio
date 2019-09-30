@@ -1,0 +1,110 @@
+/*.main {
+    min-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 14.5px;
+    color: #fff;
+    font-weight: 300;
+    background-image: url(../../assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}*/
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 40%;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;;
+
+}
+
+form {
+    text-align: left;
+    padding: 30px;
+}
+
+form .form-header {
+    font-size: 30px;
+    color: #a00b40;
+}
+
+form .input-wrapper {
+    padding: 30px 0;
+    text-align: center;
+}
+
+form .input-wrapper input {
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    border-width: 0px 0px 1px 0px;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 2px solid #a00b40;
+    color: #212121
+}
+
+form .button-wrapper {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form .button-wrapper button {
+    padding: 10px 70px;
+    font-size: 20px;
+    color: white;
+    background-color: #a00b40;
+    border: 1px solid #a00b40;
+    border-radius: 6px;
+}
+
+form .button-wrapper button:hover{
+    background-color: #fff;
+    color: #a00b40;
+}
+
+.btn-wrapper{
+    text-align: center;
+}
+
+.btn{
+    color: #ce0f52;
+    margin-bottom: 30px;
+    outline: none;
+    background-color: buttonface;
+    border: 1px solid buttonface;
+}
+
+.btn i{
+    padding-right: 5px;
+    color: #ce0f52;
+
+}
+
+.btn:hover{
+    border: 1px solid #a00b40;
+}
+
+@media(max-width: 768px){
+    form{
+        padding: 30px 0;
+    }
+
+    form .input-wrapper input {
+        width: 90%;}
+
+        .container{
+            width: 50%;
+        }
+}

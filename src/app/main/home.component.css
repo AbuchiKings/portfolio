@@ -24,20 +24,33 @@
 }
 
 .name-container {
-    margin-left: auto;
+    margin-left:auto;
+    margin-right: 0;
     width: 60%;
-    float: right;
-    text-align: justify;
+  
+    text-align: left;
+    padding-top: 20px;
 }
 
 .name {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+}
+
+.p-email{
+    color: white;
+    font-size: 18px;
+}
+.p-email a{
+    color: white;
+    margin-left: 5px;
+    font-style: italic;
 }
 
 .name span {
     font-family: 'Cabin Sketch', cursive;
     color: rgb(171, 11, 75);
+    display: inline-block;
 }
 
 .profile-pic {
@@ -53,12 +66,11 @@
 .details {
     color: white;
     clear: both;
-    width: 75%;
     margin: auto;
 }
 
 .details p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     word-spacing: 3px;
 }
@@ -72,6 +84,11 @@
     font-size: 25px;
     background-color: black;
     color: white;
+}
+
+.p-collection{
+    font-size: 20px;
+    text-align: center;
 }
 
 div.flex-container {
@@ -194,5 +211,14 @@ span.tags {
         box-sizing: content-box;
         display: inline-block;
         margin-top: 4px;
+    }
+}
+
+@media(max-width: 768px){
+    .name-container {
+        width: 100%;
+        float: none;
+        padding-top: 20px;
+        margin-left: 0;
     }
 }

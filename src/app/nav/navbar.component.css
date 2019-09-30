@@ -1,7 +1,4 @@
-
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
-
 .navbar {
     background-color: #f8f8f8;
     border-radius: 0px;
@@ -13,20 +10,19 @@
     z-index: 2;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-top: -1px;
     margin-bottom: 5px;
 }
 
-#navbarNav ul{
+#navbarNav ul {
     margin-left: auto;
     margin-right: 0;
-    
 }
 
 .navbar li>a.link {
     margin: 5px 10px;
-    padding: 5px 20px;
+    padding: 5px 30px;
 }
 
 #login, #home, #contact {
@@ -36,13 +32,29 @@
 .navbar li>a.link:hover {
     border-bottom: 2px solid rgb(171, 11, 75);
 }
-#home.active{
+
+#home.active {
     background-color: rgb(171, 11, 75);
     color: white !important;
+    padding: 5px 20px;
+
 }
 
-@media(min-width: 992px){
-    #login{
-         margin-left: 30px;
+#login.active {
+    background-color: rgb(171, 11, 75);
+    color: white !important;
+    padding: 5px 20px;
+}
+
+#contact.active {
+    background-color: rgb(171, 11, 75);
+    color: white !important;
+    padding: 5px 20px;
+
+}
+
+@media(min-width: 992px) {
+    #login {
+        margin-left: 30px;
     }
 }
