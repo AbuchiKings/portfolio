@@ -13,6 +13,8 @@
 .navbar-brand {
     margin-top: -1px;
     margin-bottom: 5px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 25px;
 }
 
 #navbarNav ul {

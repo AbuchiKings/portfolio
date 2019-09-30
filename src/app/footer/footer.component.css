@@ -8,10 +8,20 @@ footer {
     letter-spacing: 2px;
     text-align: left;
     font-size: 13px;
-    position: absolute;
+    margin-top: auto;
     bottom: 0;
 }
 
 footer div {
     text-align: center;
+}
+
+div.icons a{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+div.icons a svg{
+    color: white;
+    display: inline;
 }
