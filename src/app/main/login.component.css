@@ -19,16 +19,18 @@
 
 .container {
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     width: 40%;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 300px;
     background-color: white;
     padding: 10px;
     border-radius: 8px;
     position: relative;
 }
-
+:host.login{
+    background-color: rgb(187, 255, 0);
+}
 form {
     text-align: left;
     padding: 30px;

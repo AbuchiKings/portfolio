@@ -44,4 +44,9 @@ div.icons a svg{
         width: 90%;
 
     }
+
+    .div-main {
+        width: 100%;
+        text-align: center;
+        margin-top: 150px;}
 }
