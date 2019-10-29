@@ -115,6 +115,13 @@ div.flex-container .card {
     flex: 1 300px;
 }
 
+i{
+    max-width: 400px;
+    flex: 1 300px;
+    margin: 10px;
+
+}
+
 p.card-header {
     background-color: none;
     font-size: 20px;
@@ -228,5 +235,9 @@ span.tags {
         float: none;
         padding-top: 20px;
         margin-left: 0;
+    }
+    .name {
+        font-size: 20px;
+        color: white;
     }
 }
